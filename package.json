@@ -1,0 +1,25 @@
+{
+  "name": "moviesdiary",
+  "version": "1.0.0",
+  "description": "Node app to connect to MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitoriaQueen/Movies-Diary.git"
+  },
+  "author": "Vitoria Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VitoriaQueen/Movies-Diary/issues"
+  },
+  "homepage": "https://github.com/VitoriaQueen/Movies-Diary#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.7"
+  },
+  "devDependencies": {}
+}
