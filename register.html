@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="practice.js"></script>
+    <script src="script.js"></script>
     <style>
         html {
                 background: url(/images/zen3.jpeg) no-repeat center center fixed;
@@ -34,14 +34,12 @@
     </header>
     <div class="registration">
         <h1>Register</h1>
-        <form>
-            <label>Email</label>
-            <input type="email" placeholder=""><br>
+        <form id="reg-form">
+            <label>User Name</label>
+            <input type="text" id="username" placeholder=""><br>
             <label>Password</label>
-            <input type="text" placeholder=""><br>
-            <label>Confirm Password</label>
-            <input type="text" placeholder=""><br>
-            <input type="button" value="Submit">
+            <input type="password" id="password" placeholder=""><br>
+            <input type="submit" value="Submit">
             <br>
     <p>Already have an account? <br> <a href="login.html">Login here</a></p>
         </form>
