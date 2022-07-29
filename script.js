@@ -13,7 +13,7 @@ async function registerUser(event) {
         },
         body: JSON.stringify({
             username,
-            password
+            password  
         })
     }).then((res) => res.json())
 

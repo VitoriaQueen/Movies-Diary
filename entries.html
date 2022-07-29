@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <style>
+        html {
+                background: url(/images/zen-4) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -moz-background-size: cover;
+                background-size: cover;
+
+            }  
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-brand">My Movies Diary</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <div class="ItemEntry">
+        <h1>Enter Movie/Series</h1>
+        <form id="movies-form">
+            <label>Title</label>
+            <input type="text" id="movieTitle" placeholder=""><br>
+            <label>Date Watched</label>
+            <input type="datetime" id="dateWatched" placeholder=""><br>
+            <input type="submit" value="Save">
+            <br>
+            
+        </form>
+    </div>
+    <div class="ItemSearch">
+        <h1>Search Title Watched</h1>
+        <form id="watched-form">
+            <label>Title</label>
+            <input type="text" id="titleWatched" placeholder=""><br>
+            <label>Date Watched</label>
+            <input type="datetime" id="when_Watched" placeholder=""><br>
+            <input type="submit" value="Search">
+            <br>
+    <p> 
+        </form>
+    </div>
+    <div class="LookupEntry">
+        <h1>Look up Item Information</h1>
+        <form id="lookup-form">
+            <label>Title</label>
+            <input type="text" id="lookupTitle" placeholder=""><br>
+            <input type="submit" value="Look up">
+            <br>
+    <p> <a href="#">Logout</a></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
